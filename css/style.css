@@ -63,3 +63,86 @@ html {
 .paddingleft {
     padding-left: 50px;
 }
+.footer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 600px;
+  background-color: #04CCC0;
+}
+
+.footer div {
+  text-align: right;
+}
+
+.footer .col-1 p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.footer h2 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.icon {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.imageojk {
+  text-align: left;
+}
+
+.tombol {
+  display: inline-block;
+  width: 60px;
+  height: 56px;
+  background: #ffffff;
+  margin: 10px;
+  border-radius: 30%;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+  color: #12203c;
+}
+
+.text-ojk {
+  text-align: left;
+  color: white;
+}
+.tombol img {
+  transition: 0.2s linear;
+  font-size: 26px;
+  line-height: 90px;
+  width: 70%;
+  height: 100%;
+  padding-right: 15px;
+  position: center;
+  align-items: center;
+}
+
+.tombol:hover img {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+@keyframes aaa {
+  0% {
+    left: -110%;
+    top: -90%;
+  }
+
+  50% {
+    left: -10%;
+    top: -30%;
+  }
+
+  100% {
+    left: -10%;
+    top: -10%;
+  }
+}
